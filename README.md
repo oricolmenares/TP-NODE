@@ -1,2 +1,3 @@
 # TP-NODE
-Tp client/server with node.js , html , css and jquery.js
+Client/server website made with node.js, html , css and javaScript (using jquery).
+You can add new users, delete, edit and filter them as you want.
