@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <title>Nuevo Usuario</title>
+</head>
+
+<body>
+
+    <div class="newUser">
+        <form>
+            <p>Nombre</p>
+            <input name="name" id="nombre" type="text" placeholder="nombre">
+            <p id="warnings"></p>
+            <p>Apellido</p>
+            <input name="surname" id="apellido" type="text" placeholder="apellido">
+            <p id="warnings"></p>
+            <p>Telefono</p>
+            <input name="phone" id="telefono" type="number" placeholder="telefono">
+            <p id="warnings"></p>
+            <p>E-Mail</p>
+            <input name="mail" id="email" type="text" placeholder="e-mail">
+            <p id="warnings"></p>
+
+            <button type="button" class="btn" id="new">Guardar</button>
+        </form>
+    </div>
+
+    <div class="modal">
+        <div class="modalContent">
+          <p>Usuario Creado!</p> 
+          <button class="closeModal btn">Aceptar</button>
+        </div>
+       
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/javascripts/form.js"></script>
+
+</body>
+
+</html>
